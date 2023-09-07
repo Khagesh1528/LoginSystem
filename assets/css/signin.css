@@ -1,0 +1,49 @@
+body{
+    background-color: grey;
+}
+#cointainer{
+    position: relative;
+    left: 25%;
+    top: 25%;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(35, 60, 68);
+}
+#cointainer h1{
+    position: relative;
+    left: 40%;
+    color: white;
+    font-size: 40px;
+    font-weight:700;
+}
+
+#login-form{
+    position: relative;
+    left: 20%;
+    top: 5%;
+    width: 200px;
+    height: 150px;
+}
+#login-form input{
+    width: 350px;
+    height: 35px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+#login-form #logn-btn{
+    position: relative;
+    top: 5%;
+    left: 65%;
+    width: 75px;
+    height: 35px;
+    padding: 10px;
+     border-radius: 5px;
+     border: none;
+}
+#login-form #logn-btn:hover{
+        background-color: palegoldenrod;
+       
+        border: none;
+}
